@@ -15,7 +15,7 @@ function createGhosts(board) {
     for (var i = 0; i < ghostNum; i++) {
         createGhost(board)
     }
-    gGhostsInterval = setInterval(moveGhosts, 1000)
+    gGhostsInterval = setInterval(moveGhosts, 200)
 }
 
 function createGhost(board) {
