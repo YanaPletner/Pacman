@@ -74,6 +74,7 @@ function gameOver() { //when eats all FOOD or meets a GHOST
 
 function playAgain() { //when the button is clicked
     gGame.playAgain = true
+    createPacman(gBoard)
     init()
 }
 
